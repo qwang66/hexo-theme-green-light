@@ -42,22 +42,21 @@ See [theme light config](https://github.com/hexojs/hexo-theme-light#config).
 
 参考light主题配置, 另外以下几项特殊配置:
 
-#### 多说评论插件  
+- 多说评论插件  
   1. 主题_config.yml配置文件启用多说评论插件, 新增配置项: duoshuo: true  
   2. 博客_config.yml配置文件新增配置项: duoshuo: ${你的[多说](http://www.duoshuo.com)ID}
 
-#### 百度分享插件  
+- 百度分享插件  
   主题_config.yml配置文件启用百度分享插件, 新增配置项: baidushare: true  
 
-#### 百度统计插件  
+- 百度统计插件  
   1. 主题_config.yml配置文件启用百度统计插件, 新增配置项: baidutongji: true  
   2. 博客_config.yml配置文件新增配置项: baidutongji: ${你的[百度统计](http://tongji.baidu.com)ID}
 
-#### Google analytics插件  
+- Google analytics插件  
   1. 主题_config.yml配置文件启用Google analytics插件, 新增配置项: google_analytics: true  
   2. 博客_config.yml配置文件新增配置项: google_analytics: ${你的[Google analytics](https://www.google.com/analytics)ID}
 
 ## 补充说明
-  本人非专业前端, 样式也是用Chrome F12一点一点抠出来改的.  
-  基于官方主题light修改, 样式是参考网上的, 背景图也是从某个网站上扒过来的.  
-  二期修改参考了[这个主题](https://github.com/licheedev/hexo-theme-lightgreen), 他本身也是参考我原来的主题修改的.
+  本人非专业前端, 样式也是用Chrome F12一点一点抠出来改的. 
+  二期修改参考了[这个主题](https://github.com/licheedev/hexo-theme-lightgreen), 他本身也是参考我原来的主题修改的 :-)
