@@ -58,5 +58,5 @@ See [theme light config](https://github.com/hexojs/hexo-theme-light#config).
   2. 博客_config.yml配置文件新增配置项: google_analytics: ${你的[Google analytics](https://www.google.com/analytics)ID}
 
 ## 补充说明
-  本人非专业前端, 样式也是用Chrome F12一点一点抠出来改的. 
-  二期修改参考了[这个主题](https://github.com/licheedev/hexo-theme-lightgreen), 他本身也是参考我原来的主题修改的 :-)
+  本人非专业前端, 样式也是用Chrome F12一点一点抠出来改的.  
+  二期修改参考了[这个主题](https://github.com/licheedev/hexo-theme-lightgreen), 他也是参考我原来的主题修改的 :-)
