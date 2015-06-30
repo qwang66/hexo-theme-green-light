@@ -1,11 +1,12 @@
 menu:
   Home: /
   Archives: /archives
+  Tumblr: http://t.pingan.im
+
 
 widgets:
 - search
 - category
-- tag
 - tagcloud
 - recent_posts
 
@@ -17,7 +18,7 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true
@@ -26,7 +27,7 @@ addthis:
 
 fancybox: true
 
-google_analytics:
+google_analytics: true
 rss:
 
 comment_provider: facebook
@@ -36,3 +37,12 @@ facebook:
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light
+
+# duoshuo
+duoshuo: true
+
+# baidushare
+baidushare: true
+
+# baidu tongji
+baidutongji: true

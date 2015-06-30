@@ -1,15 +1,18 @@
-<% if (page.comments){ %>
+<% if (page.comments && theme.duoshuo){ %>
 <section id="comment">
   <h1 class="title"><%= __('comment') %></h1>
 
-  <% if (theme.comment_provider == "facebook") {
-      if (theme.facebook) { %>
-      <%- partial('_partial/facebook_comment', {fbConfig: theme.facebook}) %>
-      <% } %>
-  <% } else if(config.disqus_shortname) { %>
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
+    <div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"<%= config.duoshuo %>"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.unstable.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+  </section>
   <% } %>
-</section>
-<% } %>
