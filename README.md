@@ -42,18 +42,18 @@ See [theme light config](https://github.com/hexojs/hexo-theme-light#config).
 
 参考light主题配置, 另外以下几项特殊配置:
 
-### 多说评论插件  
+#### 多说评论插件  
   1. 主题_config.yml配置文件启用多说评论插件, 新增配置项: duoshuo: true  
   2. 博客_config.yml配置文件新增配置项: duoshuo: ${你的[多说](http://www.duoshuo.com)ID}
 
-### 百度分享插件  
+#### 百度分享插件  
   主题_config.yml配置文件启用百度分享插件, 新增配置项: baidushare: true  
 
-### 百度统计插件  
+#### 百度统计插件  
   1. 主题_config.yml配置文件启用百度统计插件, 新增配置项: baidutongji: true  
   2. 博客_config.yml配置文件新增配置项: baidutongji: ${你的[百度统计](http://tongji.baidu.com)ID}
-  
-### Google analytics插件  
+
+#### Google analytics插件  
   1. 主题_config.yml配置文件启用Google analytics插件, 新增配置项: google_analytics: true  
   2. 博客_config.yml配置文件新增配置项: google_analytics: ${你的[Google analytics](https://www.google.com/analytics)ID}
 
