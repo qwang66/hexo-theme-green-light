@@ -27,7 +27,7 @@ addthis:
 
 fancybox: true
 
-google_analytics: true
+google_analytics: false
 rss:
 
 comment_provider: facebook
@@ -42,7 +42,7 @@ facebook:
 duoshuo: true
 
 # baidushare
-baidushare: true
+baidushare: false
 
 # baidu tongji
 baidutongji: true
